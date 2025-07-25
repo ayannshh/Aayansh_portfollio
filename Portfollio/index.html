@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayansh Tarafdar - Cyber Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loading-overlay" id="loading">
+        <div class="loading-text">LOADING...</div>
+    </div>
+
+    <div class="epic-bg"></div>
+    <div class="matrix-rain" id="matrixRain"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Aayansh Tarafdar</h1>
+            <p class="tagline">Full-Stack Developer & Competitive Programmer<span class="typing-cursor">|</span></p>
+            <a href="#" class="btn"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-avatar">
+                <div class="avatar-border">
+                    <div class="avatar-inner">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>I'm a passionate full-stack and AI developer currently honing my skills in building intelligent,
+                    high-performance
+                    applications. I focus on creating innovative, real-world solutions by combining modern web and AI
+                    technologies.</p>
+                <p>As a competitive programmer, I regularly participate in coding competitions on platforms like
+                    CodeChef, LeetCode, and CodeForces, constantly pushing my problem-solving skills to new heights.</p>
+                <div class="skills">
+                    <div class="skill-tag">C++</div>
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">DSA</div>
+                    <div class="skill-tag">HTML</div>
+                    <div class="skill-tag">CSS</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">React</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>LocalEyes</h3>
+                <p>A platform that connects local communities with tourists for authentic and meaningful experiences.
+                </p>
+                <div class="tech-tags">
+                    <div class="tech-tag">HTML</div>
+                    <div class="tech-tag">CSS</div>
+                    <div class="tech-tag">JavaScript</div>
+                    <div class="tech-tag">React</div>
+                </div>
+                <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> View Project</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>CodeCollab</h3>
+                <p>Real-time collaborative coding environment with video chat and compiler integration.</p>
+                <div class="tech-tags">
+                    <div class="tech-tag">Vue.js</div>
+                    <div class="tech-tag">WebSockets</div>
+                    <div class="tech-tag">Express</div>
+                    <div class="tech-tag">Docker</div>
+                </div>
+                <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> View Project</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h3>SecureVault</h3>
+                <p>Blockchain-based password manager with military-grade encryption and biometric authentication.</p>
+                <div class="tech-tags">
+                    <div class="tech-tag">Solidity</div>
+                    <div class="tech-tag">React Native</div>
+                    <div class="tech-tag">Blockchain</div>
+                    <div class="tech-tag">AES-256</div>
+                </div>
+                <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+        <h2 class="section-title">My Achievements</h2>
+        <div class="achievements-grid">
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="achievement-number">4 Star</div>
+                <h3>CodeChef Rating</h3>
+                <p>Max(1844) top 1.03% Globally || max global rank 27</p>
+            </div>
+
+
+
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="achievement-number">Newbie</div>
+                <h3>CodeForces Rating</h3>
+                <p>Max(1171) || max global rank 6662</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="achievement-number">Top 20%</div>
+                <h3>LeetCode Rating</h3>
+                <p>Max(1618) || max global rank 1949</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="achievement-number">700+</div>
+                <h3>DSA Problems</h3>
+                <p>Solved complex algorithmic challenges across the platforms</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <h2 class="section-title">Certificates</h2>
+        <div class="certificates-grid">
+            <a href="https://coursera.org/share/39486d29d04f0d5e5ca64c638abe865e" target="_blank"
+                style="text-decoration: none; color: inherit;">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Data Structures</h3>
+                    <p>University of California San Diego</p>
+                </div>
+            </a>
+
+            <a href="https://coursera.org/share/3e6545b6b03d1dba9a48862cf00ad5ee" target="_blank"
+                style="text-decoration: none; color: inherit;">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>University of Washington Certified</p>
+                </div>
+            </a>
+
+            <a href="https://coursera.org/share/5372402d076f25db09979cd2818f690d" target="_blank"
+                style="text-decoration: none; color: inherit;">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>SQL Database</h3>
+                    <p>International Business Machines Certified</p>
+                </div>
+            </a>
+
+            <a href="https://coursera.org/share/0cfc1007510d51cf1c361b910fdd7f96" target="_blank"
+                style="text-decoration: none; color: inherit;">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Operating System</h3>
+                    <p>Google</p>
+                </div>
+            </a>
+
+            <a href="https://coursera.org/share/81fefc96a9acf5099cbe2468a961e0d0" target="_blank"
+                style="text-decoration: none; color: inherit;">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Data Science</h3>
+                    <p>International Business Machines Certified</p>
+                </div>
+            </a>
+
+            <a href="https://coursera.org/share/d303be58a15f6db3b04c45cfedb7be74" target="_blank"
+                style="text-decoration: none; color: inherit;">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Convolutional Neural Networks</h3>
+                    <p>DeepLearning.Ai Certified</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="profiles" id="profiles">
+        <h2 class="section-title">My Profiles</h2>
+        <div class="profiles-grid">
+            <div class="profile-item">
+                <a href="https://www.linkedin.com/in/aayansh-tarafdar-164825359/" class="profile-link"
+                    aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <p class="profile-name">LinkedIn</p>
+            </div>
+            <div class="profile-item">
+                <a href="https://leetcode.com/u/ayannshh/" class="profile-link" aria-label="LeetCode Profile">
+                    <i class="fas fa-code"></i>
+                </a>
+                <p class="profile-name">LeetCode</p>
+            </div>
+            <div class="profile-item">
+                <a href="https://www.codechef.com/users/aayanshh" class="profile-link" aria-label="CodeChef Profile">
+                    <i class="fas fa-fire"></i>
+                </a>
+                <p class="profile-name">CodeChef</p>
+            </div>
+            <div class="profile-item">
+                <a href="https://codeforces.com/profile/ayannshh" class="profile-link" aria-label="CodeForces Profile">
+                    <i class="fas fa-chart-line"></i>
+                </a>
+                <p class="profile-name">CodeForces</p>
+            </div>
+            <div class="profile-item">
+                <a href="https://x.com/Aayannsh" class="profile-link" aria-label="Twitter Profile">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <p class="profile-name">Twitter</p>
+            </div>
+            <div class="profile-item">
+                <a href="https://github.com/ayannshh" class="profile-link" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <p class="profile-name">GitHub</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Enter subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Enter your message"></textarea>
+                </div>
+                <a href="#" class="btn"><i class="fas fa-paper-plane"></i> Send Message</a>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>aayanshtarafdar@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Delhi, India</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9555901761</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aayansh. All rights reserved.</p>
+        <p>Designed with <i class="fas fa-heart" style="color: var(--accent-pink);"></i> and <i class="fas fa-code"
+                style="color: var(--accent-cyan);"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
