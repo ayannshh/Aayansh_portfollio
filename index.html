@@ -31,6 +31,8 @@
             <ul id="navMenu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#certificates">Certificates</a></li>
@@ -48,7 +50,7 @@
 <section class="hero" id="home">
     <div class="hero-content">
         <h1>Aayansh Tarafdar</h1>
-        <p class="tagline">Machine Learning Engineer & Software Engineer<span class="typing-cursor">|</span></p>
+        <p class="tagline">Software Engineering  &amp; Full Stack Developer<span class="typing-cursor">|</span></p>
 
         <a href="Aayansh_Resume.pdf" download="Aayansh_Resume.pdf" class="btn">
             <i class="fas fa-download"></i> Download CV
@@ -67,23 +69,99 @@
                 </div>
             </div>
             <div class="about-text">
-                <p>I'm a passionate AI developer currently honing my skills in building intelligent, high-performance applications. I focus on creating innovative, real-world solutions by combining modern web and AI technologies.</p>
-                <p>As a competitive programmer, I regularly participate in coding competitions on platforms like
-                    CodeChef, LeetCode, and CodeForces, constantly pushing my problem-solving skills to new heights.</p>
+                <p>I'm a Computer Science Engineering student at Bennett University, building across full-stack web development, backend APIs, AI-powered automation, and machine learning applications.</p>
+                <p>I recently started a Software Engineering Internship and also work on AI workflow automation, while staying active in competitive programming on CodeChef, Codeforces, LeetCode, and HackerRank.</p>
                 <div class="skills">
                     <div class="skill-tag">C++</div>
+                    <div class="skill-tag">Java</div>
                     <div class="skill-tag">Python</div>
-                    <div class="skill-tag">Data Structure</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">SQL</div>
+                    <div class="skill-tag">Data Structures</div>
                     <div class="skill-tag">Algorithms</div>
                     <div class="skill-tag">HTML</div>
                     <div class="skill-tag">CSS</div>
-                    <div class="skill-tag">JavaScript</div>
                     <div class="skill-tag">React</div>
-                    <div class="skill-tag">SQL</div>
+                    <div class="skill-tag">Tailwind CSS</div>
+                    <div class="skill-tag">Bootstrap</div>
+                    <div class="skill-tag">Node.js</div>
+                    <div class="skill-tag">Express.js</div>
+                    <div class="skill-tag">REST APIs</div>
+                    <div class="skill-tag">MongoDB</div>
+                    <div class="skill-tag">Mongoose</div>
+                    <div class="skill-tag">MySQL</div>
                     <div class="skill-tag">Machine Learning</div>
+                    <div class="skill-tag">Git</div>
+                    <div class="skill-tag">Docker</div>
+                    <div class="skill-tag">Kubernetes</div>
 
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
+            <div class="education-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-details">
+                <span class="education-period">2023 - 2027</span>
+                <h3>Bachelor of Technology in Computer Science Engineering</h3>
+                <p>Bennett University</p>
+                <p>Noida, India</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-timeline">
+            <article class="experience-card current-role">
+                <div class="experience-header">
+                    <div>
+                        <span class="experience-period">May 2026 - Aug 2026</span>
+                        <h3>Software Engineering Intern</h3>
+                        <p class="company">MyCBSEguide - Examin8</p>
+                    </div>
+                    <span class="experience-location">Noida, Hybrid</span>
+                </div>
+                <ul class="experience-points">
+                    <li>Designed and developed 3+ RESTful APIs using Node.js and Express.js, reducing average response latency by 20% through query optimization and middleware refactoring.</li>
+                    <li>Optimized MongoDB queries and indexing strategies across high-traffic collections, improving exam content data retrieval speed by 25% for 12,000+ teachers.</li>
+                    <li>Implemented input validation, error-handling middleware, and structured API response formats following REST best practices, reducing affected endpoint bug reports by 15%.</li>
+                </ul>
+                <div class="tech-tags">
+                    <div class="tech-tag">Node.js</div>
+                    <div class="tech-tag">Express.js</div>
+                    <div class="tech-tag">REST APIs</div>
+                    <div class="tech-tag">MongoDB</div>
+                    <div class="tech-tag">Middleware</div>
+                </div>
+            </article>
+
+            <article class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <span class="experience-period">Dec 2025 - Jan 2026</span>
+                        <h3>AI &amp; Workflow Automation Freelancer</h3>
+                        <p class="company">Scaler AI Lab</p>
+                    </div>
+                    <span class="experience-location">Remote</span>
+                </div>
+                <ul class="experience-points">
+                    <li>Developed and tested rule-based automation workflows integrating enterprise tools like Jira, Stripe, and Google Workspace for AI-driven platform operations.</li>
+                    <li>Ensured data consistency and accuracy across 100+ QA simulations in AI training and validation environments.</li>
+                </ul>
+                <div class="tech-tags">
+                    <div class="tech-tag">Workflow Automation</div>
+                    <div class="tech-tag">Jira</div>
+                    <div class="tech-tag">Stripe</div>
+                    <div class="tech-tag">Google Workspace</div>
+                    <div class="tech-tag">QA Simulation</div>
+                </div>
+            </article>
         </div>
     </section>
 
@@ -92,63 +170,110 @@
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h3>Finance Credit Follow-Up Email Agent</h3>
+                <p>AI-powered invoice follow-up system that classifies overdue invoices into 4 collection stages and generates stage-specific payment reminder emails.</p>
+                <div class="tech-tags">
+                    <div class="tech-tag">Python</div>
+                    <div class="tech-tag">Streamlit</div>
+                    <div class="tech-tag">Gemini API</div>
+                    <div class="tech-tag">Gmail SMTP</div>
+                    <div class="tech-tag">CSV Upload</div>
+                    <div class="tech-tag">Audit Logging</div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/ayannshh/finance-credit-followup-agent" class="btn btn-small" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Repo
+                    </a>
+                    <a href="https://finance-credit-followup-agent-43hbvjg6xunwjxp9bxwjze.streamlit.app/" class="btn btn-small" target="_blank" rel="noopener">
+                        <i class="fas fa-external-link-alt"></i> Live App
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-map-location-dot"></i>
+                </div>
+                <h3>Wonder Land</h3>
+                <p>Full-stack Pinterest-style travel platform where users can discover, upload, and view pricing for destinations and accommodations.</p>
+                <div class="tech-tags">
+                    <div class="tech-tag">Node.js</div>
+                    <div class="tech-tag">Express</div>
+                    <div class="tech-tag">FastAPI</div>
+                    <div class="tech-tag">MongoDB</div>
+                    <div class="tech-tag">Bootstrap</div>
+                    <div class="tech-tag">JavaScript</div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/ayannshh/WonderLand/tree/main" class="btn btn-small" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> View Project
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">
                     <i class="fas fa-leaf"></i>
                 </div>
                 <h3>LocalEyes</h3>
-                <p>A platform that connects local communities with tourists for authentic and meaningful experiences.
-                </p>
+                <p>Responsive web application that showcases local businesses and attractions with dynamic JSON content, search filters, and category-based browsing.</p>
                 <div class="tech-tags">
                     <div class="tech-tag">HTML</div>
                     <div class="tech-tag">CSS</div>
                     <div class="tech-tag">JavaScript</div>
-                    <div class="tech-tag">React</div>
+                    <div class="tech-tag">JSON</div>
+                    <div class="tech-tag">Figma</div>
                 </div>
-                <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> View Project</a>
+                <div class="project-actions">
+                    <a href="https://github.com/ayannshh/LocalEyes/tree/main/LocalEyes" class="btn btn-small" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Code
+                    </a>
+                    <a href="https://github.com/ayannshh/LocalEyes" class="btn btn-small" target="_blank" rel="noopener">
+                        <i class="fas fa-external-link-alt"></i> Project
+                    </a>
+                </div>
             </div>
-<div class="project-card">
-    <div class="project-icon">
-        <i class="fas fa-brain"></i>
-    </div>
-
-    <h3>Rock vs Mine Prediction</h3>
-
-    <p>Machine learning model using Logistic Regression to classify sonar signals as rock or mine with 76% test accuracy.</p>
-
-    <div class="tech-tags">
-        <div class="tech-tag">Python</div>
-        <div class="tech-tag">NumPy</div>
-        <div class="tech-tag">Pandas</div>
-        <div class="tech-tag">Logistic Regression</div>
-        <div class="tech-tag">Scikit-Learn</div>
-    </div>
-
-    <a href="https://github.com/ayannshh/Rock-vs-Mine-Prediction" class="btn btn-small" target="_blank">
-        <i class="fas fa-external-link-alt"></i> View Project
-    </a>
-</div>
 
             <div class="project-card">
-    <div class="project-icon">
-        <i class="fas fa-paint-brush"></i>
-    </div>
+                <div class="project-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Rock vs Mine Prediction</h3>
+                <p>Machine learning model using Logistic Regression to classify sonar signals as rock or mine with 76% test accuracy.</p>
+                <div class="tech-tags">
+                    <div class="tech-tag">Python</div>
+                    <div class="tech-tag">NumPy</div>
+                    <div class="tech-tag">Pandas</div>
+                    <div class="tech-tag">Logistic Regression</div>
+                    <div class="tech-tag">Scikit-Learn</div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/ayannshh/Rock-vs-Mine-Prediction" class="btn btn-small" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> View Project
+                    </a>
+                </div>
+            </div>
 
-    <h3>AI Image Colorizer</h3>
-
-    <p>Deep-learning powered model that converts black-and-white images into realistic colored images using CNNs.</p>
-
-    <div class="tech-tags">
-        <div class="tech-tag">Python</div>
-        <div class="tech-tag">OpenCV</div>
-        <div class="tech-tag">TensorFlow / Keras</div>
-        <div class="tech-tag">CNN</div>
-    </div>
-
-    <a href="https://github.com/ayannshh/Ai-Image-Colorizer" 
-       class="btn btn-small" 
-       target="_blank">
-        <i class="fas fa-external-link-alt"></i> View Project
-    </a>
-</div>
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>AI Image Colorizer</h3>
+                <p>Deep-learning powered model that converts black-and-white images into realistic colored images using CNNs.</p>
+                <div class="tech-tags">
+                    <div class="tech-tag">Python</div>
+                    <div class="tech-tag">OpenCV</div>
+                    <div class="tech-tag">TensorFlow / Keras</div>
+                    <div class="tech-tag">CNN</div>
+                </div>
+                <div class="project-actions">
+                    <a href="https://github.com/ayannshh/Ai-Image-Colorizer" class="btn btn-small" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> View Project
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -161,7 +286,7 @@
                 </div>
                 <div class="achievement-number">4 Star</div>
                 <h3>CodeChef Rating</h3>
-                <p>Max(1844) top 1.03% Globally || max global rank 27</p>
+                <p>Best Rating: 1844, Top 2.37% Globally, Best Global Rank: 27</p>
             </div>
 
 
@@ -172,16 +297,16 @@
                 </div>
                 <div class="achievement-number">Specialist</div>
                 <h3>CodeForces Rating</h3>
-                <p>Max(1458) || max global rank 1026</p>
+                <p>Best Rating: 1458, Top 7% Globally</p>
             </div>
 
             <div class="achievement-card">
                 <div class="achievement-icon">
                     <i class="fas fa-trophy"></i>
                 </div>
-                <div class="achievement-number">Top 20%</div>
-                <h3>LeetCode Rating</h3>
-                <p>Max(1618) || max global rank 1949</p>
+                <div class="achievement-number">400+</div>
+                <h3>LeetCode Problems</h3>
+                <p>Solved 400+ problems in DP, Graphs, and core Data Structures</p>
             </div>
 
             <div class="achievement-card">
@@ -199,27 +324,27 @@
                     <i class="fas fa-trophy"></i>
                 </div>
                 <div class="achievement-number">SIH</div>
-                <h3>Rank 4 — SIH Hackathon</h3>
-                <p>Secured <strong>Rank 4 among 640 teams</strong> in internal SIH Hackathon 2025</p>
+                <h3>Rank 4 - SIH Hackathon</h3>
+                <p>Secured <strong>Rank 4 among 640+ teams</strong> in internal SIH Hackathon 2025</p>
             </div>
 
-<div class="achievement-card">
-    <div class="achievement-icon">
-        <i class="fas fa-star"></i>
-    </div>
-    <div class="achievement-number">5 Star</div>
-    <h3>5★ HackerRank</h3>
-    <p>Earned <strong>5★ in C++ and Python</strong> on HackerRank</p>
-</div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="achievement-number">5 Star</div>
+                <h3>HackerRank</h3>
+                <p>Achieved 5-star badges in Problem Solving, Python, and C++</p>
+            </div>
 
-<div class="achievement-card">
-    <div class="achievement-icon">
-        <i class="fas fa-chart-line"></i>
-    </div>
-    <div class="achievement-number">codolio</div>
-    <h3>Global Peak Rank 2022</h3>
-    <p>Achieved <strong>Global Peak Rank 2022</strong> on Codolio based on overall performance</p>
-</div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="achievement-number">Codolio</div>
+                <h3>Competitive Profile</h3>
+                <p>Tracks coding performance and problem-solving progress across platforms</p>
+            </div>
 
 
 
@@ -229,6 +354,17 @@
     <section class="certificates" id="certificates">
         <h2 class="section-title">Certificates</h2>
         <div class="certificates-grid">
+            <a href="https://learn.nvidia.com/certificates?id=PnOZxxHuR5qHc2gsaUF7ew" target="_blank" rel="noopener"
+                style="text-decoration: none; color: inherit;">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Accelerated Computing</h3>
+                    <p>NVIDIA Certified - CUDA C++</p>
+                </div>
+            </a>
+
             <a href="https://coursera.org/share/39486d29d04f0d5e5ca64c638abe865e" target="_blank"
                 style="text-decoration: none; color: inherit;">
                 <div class="cert-card">
@@ -337,6 +473,18 @@
                 </a>
                 <p class="profile-name">GitHub</p>
             </div>
+            <div class="profile-item">
+                <a href="https://codolio.com/profile/Aayansh" class="profile-link" aria-label="Codolio Profile">
+                    <i class="fas fa-ranking-star"></i>
+                </a>
+                <p class="profile-name">Codolio</p>
+            </div>
+            <div class="profile-item">
+                <a href="https://www.hackerrank.com/profile/Aayansh" class="profile-link" aria-label="HackerRank Profile">
+                    <i class="fab fa-hackerrank"></i>
+                </a>
+                <p class="profile-name">HackerRank</p>
+            </div>
 
         </div>
     </section>
@@ -383,7 +531,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Aayansh. All rights reserved.</p>
+        <p>&copy; 2026 Aayansh. All rights reserved.</p>
         <p>Designed with <i class="fas fa-heart" style="color: var(--accent-pink);"></i> and <i class="fas fa-code"
                 style="color: var(--accent-cyan);"></i></p>
     </footer>
