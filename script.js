@@ -53,7 +53,9 @@ window.addEventListener('load', function () {
                 duration: 1,
                 delay: 1,
                 onComplete: function () {
-                    document.querySelector('.btn').classList.add('animated');
+                    document.querySelectorAll('.btn').forEach(button => {
+                        button.classList.add('animated');
+                    });
                 }
             });
         }
@@ -161,6 +163,45 @@ function setupScrollAnimations() {
             onComplete: function () {
                 document.querySelectorAll('.skill-tag').forEach(tag => {
                     tag.classList.add('animated');
+                });
+            }
+        }
+    );
+
+    // Animate education card
+    gsap.fromTo('.education-card',
+        { opacity: 0, y: 80 },
+        {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+                trigger: '#education',
+                start: "top 80%",
+                toggleActions: "play none none none"
+            },
+            onComplete: function () {
+                document.querySelector('.education-card').classList.add('animated');
+            }
+        }
+    );
+
+    // Animate experience cards
+    gsap.fromTo('.experience-card',
+        { opacity: 0, y: 100 },
+        {
+            opacity: 1,
+            y: 0,
+            duration: 0.9,
+            stagger: 0.2,
+            scrollTrigger: {
+                trigger: '#experience',
+                start: "top 80%",
+                toggleActions: "play none none none"
+            },
+            onComplete: function () {
+                document.querySelectorAll('.experience-card').forEach(card => {
+                    card.classList.add('animated');
                 });
             }
         }
